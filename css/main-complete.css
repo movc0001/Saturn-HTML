@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 3vh;
+    font-family: Fonts 'Helvetica Neue', Calibri, Verdana, sans-serif;
+    background: #222
+}
+
+h1 {
+    color: #eee;
+    text-shadow: 2px 2px 2px #000, -2px -2px 1px gold;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3.3em;
+}
+
+h1 img {
+    height: 35px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #eee;
+    padding: 15px 0;
+}
+
+p {
+    line-height: 1.3;
+    padding-bottom: 25px;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: gold;
+}
+
+nav a:hover,
+a:active {
+    color: #fff;
+}
+
+nav ul {
+    background: #444;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+#wrapper {
+    margin: 0 10%;
+    width: 80%;
+	min-width:625px;
+}
+
+#masthead {
+    height: 150px;
+    background-image: url("../img/saturn.v1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    border-bottom: 7px solid #666;
+}
+
+#main {
+    border-top: 8px solid #666;
+    background: #444;
+    color: #d4d4d4;
+    padding: 15px;
+}
+
+#footer {
+    background: #333;
+    color: #999;
+    padding: 15px;
+}
+
+#footer p {}
+
+#footer a {
+    color: gold;
+}
+
+#footer a:hover {
+    color: #fff;
+}
